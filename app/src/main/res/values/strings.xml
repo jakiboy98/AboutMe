@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">About Me</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_jacob">jacobActivity</string>
+    <string name="title_activity_wrestling">wrestlingActivity</string>
+    <string name="title_activity_cooking">cookingActivity</string>
+    <string name="title_activity_pokemon">pokemonActivity</string>
+    <string name="title_activity_dnd">dndActivity</string>
+    <string name="title_activity_fullmetal">fullmetalActivity</string>
+</resources>

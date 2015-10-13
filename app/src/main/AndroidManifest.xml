@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jwil9706.aboutme" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".AboutMe"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".jacobActivity"
+            android:label="@string/title_activity_jacob" >
+        </activity>
+        <activity
+            android:name=".wrestlingActivity"
+            android:label="@string/title_activity_wrestling" >
+        </activity>
+        <activity
+            android:name=".cookingActivity"
+            android:label="@string/title_activity_cooking" >
+        </activity>
+        <activity
+            android:name=".pokemonActivity"
+            android:label="@string/title_activity_pokemon" >
+        </activity>
+        <activity
+            android:name=".dndActivity"
+            android:label="@string/title_activity_dnd" >
+        </activity>
+        <activity
+            android:name=".fullmetalActivity"
+            android:label="@string/title_activity_fullmetal" >
+        </activity>
+    </application>
+
+</manifest>
