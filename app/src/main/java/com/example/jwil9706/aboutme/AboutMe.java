@@ -21,6 +21,7 @@ public class AboutMe extends Activity
     private Button fullmetalButton;
     private TextView textBox;
     private GridLayout grid;
+    //initalizes all of the buttons.
 
 
     @Override
@@ -37,6 +38,7 @@ public class AboutMe extends Activity
         fullmetalButton = (Button) findViewById(R.id.fullmetalButton);
         grid = (GridLayout) findViewById(R.id.grid);
         setupListeners();
+        //Gives the buttons id's.
     }
 
     @Override
@@ -65,6 +67,7 @@ public class AboutMe extends Activity
 
     private void setupListeners()
     {
+        //Makes the buttons do something.
         jacobButton.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View buttonView)
@@ -122,6 +125,7 @@ public class AboutMe extends Activity
                 startActivityForResult(myIntent, 0);
             }
         });
+
     }}
 
 

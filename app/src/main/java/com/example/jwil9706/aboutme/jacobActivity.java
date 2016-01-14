@@ -1,16 +1,24 @@
 package com.example.jwil9706.aboutme;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
-public class jacobActivity extends Activity {
+public class jacobActivity extends Activity
+{
+
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_jacob);
+
+
     }
 
     @Override
@@ -34,4 +42,6 @@ public class jacobActivity extends Activity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }

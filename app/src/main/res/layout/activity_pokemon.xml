@@ -18,9 +18,17 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Pokemon is a game about catching powerful monsters, and training them to bow to your will. You engage in physical combat with other pokemon, and force them to fight till they knock each other unconscious. This game is played by kids all over the world."
+        android:text="Pokemon is a game where you capture monsters through the use of Pokeballs. Once you capture them, you then befriend them over time, and train them to fight other kid&apos;s monsters. You then challenge stronger trainers until you become the best in the world."
         android:id="@+id/textView9"
         android:layout_below="@+id/imageButton2"
         android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/Home3"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>

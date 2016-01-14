@@ -1,16 +1,25 @@
 package com.example.jwil9706.aboutme;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
-public class pokemonActivity extends Activity {
+public class pokemonActivity extends Activity
+{
+    private Button Home2;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState)
+    {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pokemon);
+
+        Home2 = (Button) findViewById(R.id.Home2);
+        setupListeners();
     }
 
     @Override
@@ -33,5 +42,17 @@ public class pokemonActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void setupListeners()
+    {
+        Home2.setOnClickListener(new View.OnClickListener()
+        {
+            public void onClick(View buttonView)
+            {
+                Intent myIntent = new Intent(buttonView.getContext(), AboutMe.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
     }
 }

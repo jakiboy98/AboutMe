@@ -26,4 +26,12 @@
         android:layout_below="@+id/imageButton5"
         android:layout_toEndOf="@+id/imageView" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:id="@+id/Home5"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
 </RelativeLayout>
